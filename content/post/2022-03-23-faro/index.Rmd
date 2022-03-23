@@ -1,0 +1,32 @@
+---
+title: Faro
+authors:
+- Pancho
+date: '2022-03-23'
+slug: []
+categories:
+  - Portugal
+tags: []
+hero: /images/IMG_1654.JPEG
+excerpt: ~
+---
+
+![](/images/faro/IMG_1721.JPEG "Arco da Vila. Monumental puerta neoclásica que lleva al casco antiguo, con restos de la muralla original musulmana")
+
+
+
+
+```{r, echo=FALSE}
+library(slickR)
+
+paths <- c(
+  "/images/faro/A308D2C3-5FA8-4759-9D42-8FA057FF7CDB.jpg",
+"/images/faro/5D187423-6FCB-4785-865D-B3F2D6C0E98B.jpg"
+)
+
+slickR(obj = paths) + 
+  settings(dots = FALSE,
+             slidesToShow = 1,
+            slidesToScroll = 1
+           )
+```
